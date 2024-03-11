@@ -10,5 +10,7 @@ public class Program
         Console.WriteLine("Modyfikacja1");
         Console.WriteLine("Modyfikacja2");
         Console.WriteLine("Modyfikacja3");
+        
+        Console.WriteLine("Z brancha feature average");
     }
 }
