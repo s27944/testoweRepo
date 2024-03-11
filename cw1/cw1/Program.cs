@@ -13,4 +13,17 @@ public class Program
         
         Console.WriteLine("Z brancha feature average");
     }
+
+
+    public static int Avg(int[] tab)
+    {
+        int sum = 0;
+        foreach (int num in tab)
+        {
+            sum += num;
+            
+        }
+
+        return sum / tab.Length;
+    }
 }
