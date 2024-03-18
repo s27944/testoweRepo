@@ -17,14 +17,14 @@ public class Program
 
     public static int Avg(int[] tab)
     {
-        int sum = 0;
+        int suma = 0;
         foreach (int num in tab)
         {
-            sum += num;
+            suma += num;
             
         }
 
-        return sum / tab.Length;
+        return suma / tab.Length;
     }
 
 
