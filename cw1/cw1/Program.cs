@@ -26,4 +26,10 @@ public class Program
 
         return sum / tab.Length;
     }
+
+
+    public static int Max(int[] tab)
+    {
+        return Max(tab);
+    }
 }
